@@ -1,0 +1,128 @@
+/* A debug class, used to separate components graphically during development */
+.debug {
+    border-style:solid;
+}
+/* tw1.5.2.b*/
+.alignRight { 
+    text-align: right;
+}
+
+@media (min-width:500px){ 
+    .flexParent{ 
+        display:flex; 
+        min-width: 250px;
+        min-height: 600px;
+    }
+   
+}
+
+.sidebar{ 
+    width:440px;
+    border-style: solid; 
+ }
+ 
+.mainContent{ 
+    padding: 20px;
+    width:400px;
+    border-style: solid;
+ }
+ 
+ .resultsParent{
+    border: 1.3px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 700px;
+    background-color:#fff8dc;
+    
+}
+
+ .searchResult {
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px;
+    vertical-align: top;
+    width: 250px;
+    text-align: center;
+    
+}
+
+.detailsPage {
+    margin-top: 3%;
+    border: 1px solid black;
+    padding-left: 3%;
+    background-color: #f2f6ec;
+    display: flow-root;
+    margin-bottom: 3%;
+}
+
+.detailsbtn {
+    background-color: none;
+    border: none;
+    color: rgb(244, 12, 77);
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.detailsPrice{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:left;
+    background-color: #F6DDCC;
+}
+
+.detailsImage {
+    margin-right: 3%;
+    float: left;
+    border-radius: 8px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.2);
+}
+
+.detailh1 {
+    padding-top: 0;
+}
+
+.detailsInstruction {
+    margin-top: 3%;
+    border: 1px solid black;
+    padding-left: 3%;
+    background-color: #d0f0be;
+    display: flow-root;
+    margin-bottom: 3%;
+}
+.detailsView{
+    border: 1.3px solid black;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.hidden {
+	display: none;
+}
+
+.sidebarPage {
+    background-color:#fff8dc;
+    margin: 10px;
+}
+
+.searchButton {
+    background-color: none;
+    border: none;
+    color: rgb(244, 12, 77);
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+}
